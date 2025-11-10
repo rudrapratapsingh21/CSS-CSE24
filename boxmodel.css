@@ -1,0 +1,22 @@
+
+#div1{
+    border: solid 5px ;
+margin: 300px;
+}
+#div2{
+    border: solid 25px;
+    color: blue;
+    margin: 20px 5px 10px 15px;
+    background-color: darkgoldenrod;
+    height: 100px;
+    width: 650px;
+}
+div{
+    display: block;
+    font-size: 40px;
+    
+    
+}
+p{
+    font-size: 50px
+}
