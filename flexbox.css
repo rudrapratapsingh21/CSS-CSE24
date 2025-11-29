@@ -1,0 +1,60 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    height: 1000px;
+    width: 1200px;
+    border: 2px solid black;
+    flex-wrap:wrap ;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 20px 30px;
+}
+.iteam{
+    height: 200px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: rgb(63, 202, 245);
+    flex-grow: 1;
+
+}
+.iteam4{
+    order: -1;
+    flex-grow: 2;
+    align-self: flex-end;
+    
+}
+/* parent characterstics */
+/* flex-flow
+justify-content 
+flex-start end 
+center
+space-between
+space-around
+space-evenly */
+/* align items 
+flex-start rnd 
+center
+streach
+baseline */
+/* align-contant
+flex-start end
+center
+streach
+space-btw
+space-around */
+/* gap 
+row gap
+column gap */
+/* by defalt child element ka order 0 hota hai  */
+/* 
+child property
+
+order
+flex-grow 
+flex-shrink
+align-self */

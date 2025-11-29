@@ -1,0 +1,16 @@
+.box{
+    text-align: left;
+    height: 150px;
+    width: 150px;
+    
+}
+.box1{
+    background-color: rgb(200, 156, 44);
+    padding: 10px;
+}
+.box2{
+    background-color: rgb(233, 51, 51);
+}
+.box3{
+    background-color: aqua;
+}
